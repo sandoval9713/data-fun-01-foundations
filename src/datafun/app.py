@@ -97,13 +97,13 @@ GRAIN: Final[str] = "one penguin"  # CUSTOM
 # from other columns in the dataset.
 # This must match a numeric column name EXACTLY as it appears in the CSV file.
 # I picked "body_mass_g" as the target column.
-A_TARGET_WE_COULD_PREDICT: Final[str] = "body_mass_g"
+A_TARGET_WE_COULD_PREDICT: Final[str] = "bill_length_mm"
 
 # CUSTOM: Choose one other NUMERIC column
 # as a FEATURE that might help predict the target.
 # This must match a numeric column name EXACTLY as it appears in the CSV file.
 # I picked "flipper_length_mm" as the feature column.
-A_FEATURE_THAT_MIGHT_HELP: Final[str] = "flipper_length_mm"
+A_FEATURE_THAT_MIGHT_HELP: Final[str] = "bill_depth_mm"
 
 # CUSTOM: Document your thinking.
 # Why do you think that feature could help predict the target?
@@ -113,9 +113,9 @@ A_FEATURE_THAT_MIGHT_HELP: Final[str] = "flipper_length_mm"
 # like I typed it.
 # Open and close with three double quotes to get a multi-line string.
 WHY_THE_FEATURE_MIGHT_HELP: Final[str] = r"""
-A bigger penguin probably has both a longer flippers and more body mass.
-Flipper length might help predict body mass.
-That is, longer flippers may indicate a larger body mass.
+Bill depth might be related to bill legth because both measurements
+describe the size and shape of a penguin's bill.
+I want to see whether penguins with deeper bills also tend to have longer bills.
 """
 
 
