@@ -270,3 +270,7 @@ Press `Ctrl c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
+
+## My Technical Modification
+I change the feature used to help predict penguin body mass from 'bill_length_mm' to 'flipper_length_mm'. I chose flipper length because I thought larger penguins would likely have longer flippers and greater body mass.
+After making the change, I ran the project successfully. The scatterplot showed a positive relationship between flipper length and body mass, with penguins with longer flippers generally having greater body mass.
