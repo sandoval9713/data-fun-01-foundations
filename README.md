@@ -144,7 +144,7 @@ and align VS Code with it, run the following commands.
 
 These are listed for convenience.
 For best results, follow the detailed instructions in
-[pro-analytics-02 guide](https://denisecase.github.io/pro-analytics-02/).
+[pro-analytics-02 guide](https://g.github.io/pro-analytics-02/).
 
 Use VS Code menu option `Terminal` / `New Terminal` to open a **VS Code terminal**
 in the root project folder.
