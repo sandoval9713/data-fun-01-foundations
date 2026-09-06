@@ -1,9 +1,15 @@
-# Project Documentation
+# Penguin Data Analysis
 
-> Use this hosted documentation site to tell your
-> data story. Include a narrative telling your
-> results, observations, and interpretations.
-> Display visuals as needed for a compelling story.
+This project explores the penguins dataset using python and pandas, I looked at different measurements tosee how they may be related. For my final analysis, I compared bill depth and bill length to see whether penguins with deeper bills also tend to have longer bills.
+The scatterplot shows that the relationship is not as simple as I originally expected. The data forms different groups, showing that other characteristics of the penguins may also affect the relationship between bill depth and bill length.
+
+## question I Explored
+I wanted to explore whther bill depth could help predict bill length in the penguins dataset. My question was: Do penguins with deeper bills also tend to have longer bills?
+
+## Visualization
+The scatterplot below compares bill depth and bill length for the enguins in the dataset. 
+
+![Scatterplot of bill depth and bill length](images/feature-target-scatter.png)
 
 ## Professional Workflow
 
