@@ -10,7 +10,7 @@
 > Professional Python project: inspect data and plan experiments.
 
 ## Project Overview
-This project analyze the Palmer penguins dataset using Python and pandas. I explored relationships between numeric measurements and created scatterplot to better understand patterns in the data. For my final analysis, I compared bill depth and bill length to see whether penguins with deeper bills also tend to have longer bills. 
+This project analyze the Palmer penguins dataset using Python and pandas. I explored relationships between numeric measurements and created scatterplot to better understand patterns in the data. For my final analysis, I compared bill depth and bill length to see whether penguins with deeper bills also tend to have longer bills.
 
 ## Initial Results
 The scatterplot shows that bill depth and bill length do not have a simple straight-line relationship. The data appear in distinct groups, which suggets that other characteristics of the penguins may also influence the relationship between bill depth and bill length.
@@ -39,4 +39,4 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## My Technical Modification
 For my final analysis, I changed the target to 'bill_length_mm` and the feature to 'bill_depth_mm`. I chose these measurements because both describe the size and shape of a penguin's bill, and I wanted to see whether penguins with deper bills also tend to have longer bills.
-After running the project, the scatterplot showed that the relationship was not as simple as I expected. The data formed different groups, suggesting that other characteristics of the penguins may also influence the relationship between bill depth and bill length. 
+After running the project, the scatterplot showed that the relationship was not as simple as I expected. The data formed different groups, suggesting that other characteristics of the penguins may also influence the relationship between bill depth and bill length.

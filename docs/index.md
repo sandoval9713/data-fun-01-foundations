@@ -7,7 +7,7 @@ The scatterplot shows that the relationship is not as simple as I originally exp
 I wanted to explore whther bill depth could help predict bill length in the penguins dataset. My question was: Do penguins with deeper bills also tend to have longer bills?
 
 ## Visualization
-The scatterplot below compares bill depth and bill length for the enguins in the dataset. 
+The scatterplot below compares bill depth and bill length for the enguins in the dataset.
 
 ![Scatterplot of bill depth and bill length](images/feature-target-scatter.png)
 
